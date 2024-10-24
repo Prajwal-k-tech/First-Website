@@ -1,0 +1,150 @@
+header {
+    background-image: url("https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    margin: -5px;
+    background-size: cover;
+    border: 5px solid black;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Brush Script MT";
+}
+#header-img {
+    display:block;
+    transform: translateY(10px);
+    margin: auto;
+    border-radius: 50%;
+}
+nav {
+    text-align: center;
+    font-size: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+html {
+    background-color: rgb(59, 59, 59);
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1625173616412-7b403d49a41e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border: 5px solid black;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+h3{
+    font-size:50px;
+    text-align:center;
+    transform:translateX(23px);
+}
+article {
+    color: rgb(222, 189, 153);
+}
+section {
+    background-image: url(https://images.unsplash.com/photo-1654263937085-48fb17a63d66?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border: 5px solid black;
+    margin: -5px;
+}
+hr {
+
+    border: 3px solid black;
+}
+
+/*ok think, this shit is gonna be annoying, make the image have 0 opac then appear, change width of textbox, shit should work*/
+/*non hover properties*/
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.menu-container img {
+    opacity: 0;
+    width:0;
+    transition: all 0.7s ease-in-out;
+}
+
+.menu-text {
+    width: 97%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Brush Script MT";
+    text-align: center;
+    color: black;
+    background-color: rgba(222, 189, 153,0.9);
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    transition: width 0.7s ease-in-out;
+}
+/*Hover properties now*/
+.menu-container:hover .menu-text {
+    width: 60%;
+}
+.menu-container:hover img {
+    opacity: 1;
+    width:30%;
+    border: 3px solid black;
+    border-radius:60%;
+    transform: translateX(-40px);
+
+}
+/*time to style the form, lets use our same background in the menu and make the text inputs look a bit better*/
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+form{
+    font-family:"Century Gothic";
+    width:70%;
+    padding:10px;
+    text-align:center;
+    background-color: rgba(222, 189, 153,0.9);
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+input{
+
+    padding: 10px;
+    height:10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+textarea{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button{
+    background:rgb(128, 52, 100);
+    border-radius: 10px;
+    padding:5px 10px 5px 10px;
+    font-size:20px;
+
+}
+button:hover{
+    background:rgb(201, 74, 49);
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+

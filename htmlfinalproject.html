@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="project.css">
+    <title>Tasty Bakes</title>
+</head>
+
+<header>
+    <img src="C:\Users\prajw\Downloads\tastybakespic.png" alt="pic of tastybakes" id="header-img">
+    <h1>Tasty Bakes</h1>
+    <nav><a href="#menu">Menu</a><br><a href="#order-form">Order From</a></nav>
+
+</header>
+
+<body>
+<h2 id = "menu">Menu</h2>
+<div id = "Rmenu">
+    <article>
+        <div class="menu-container">
+            <div class="menu-text">
+                <h3>Cakes:</h3>
+                <ol>
+                    <li>Blueberry Cake</li>
+                    <li>Chocolate Cake</li>
+                    <li>Strawberry Cake</li>
+                    <li>TBs Special Cake</li>
+                </ol>
+                <p>Some of the finest cakes in banglore <br> our Tasty Bakes Special is a must try <br>
+                    our Chocolate cake is to die for <br> and you'll not find better strawberry and blueberry cakes anywhere. <br>
+                    <i>Blueberry, Strawberry are ₹400, ₹500 for chocolate and 600 for the Special (Full Cakes)</i></p>
+            </div>
+            <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=1950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" height="300" width="300" class="menuimg">
+        </div>
+    </article>
+    <br>
+
+
+    <article>
+        <div class="menu-container">
+            <div class="menu-text">
+                <h3>Cookies:</h3>
+                <ol>
+                    <li>Chocolate Chip</li>
+                    <li>Butter Cookies</li>
+                    <li>Almond Cookies</li>
+                    <li>TBs Special Cookies</li></ol>
+                <p>Our cookies are made with the finest ingredients <br> and are baked to perfection <br> our special cookies are a must try <br> and our almond cookies are a fan favorite.
+                    <br> <i>Chocolate Chip, Butter Cookies and Almond Cookies are ₹100  and ₹150 for the Special Cookies (for 100gms)</i>
+                </p>
+            </div>
+            <img src="https://plus.unsplash.com/premium_photo-1670895802275-ed748ced4309?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" height = "300" width = "300" class = "menuimg">
+        </div>
+    </article>
+    <br>
+
+
+<article>
+<div class="menu-container">
+<div class="menu-text">
+
+    <h3>Traditional Snacks:</h3>
+<ol>
+    <li>Paneer Puff</li>
+    <li>Samosa</li>
+    <li>Congress Bun</li>
+    <li>TBs Special Mixture</li></ol>
+<p>Delve into our special snacks <br> We are well known thanks to our amazing Puffs, and delectable Samosas <br> Our Special Mixture is something you simply can not miss
+    <br> <i>Puffs, Samosas and Bun ₹20 (1 piece), ₹200 for 1kg of Special Mix </i></p>
+</div>
+<img  src="https://plus.unsplash.com/premium_photo-1695297515191-5870e86dcbe0?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" height = "300" width = "300" class = "menuimg" >
+</div>
+</article>
+    <br>
+    <br>
+<section id = "Order">
+    <form action="order" method="post">
+        <h2 id="order-form">Place Your Order</h2>
+
+        <!-- Cakes Section -->
+        <h3>Cakes:</h3>
+        <label for="blueberry-cake">Blueberry Cake (₹400):</label>
+        <input type="number" id="blueberry-cake" name="blueberry_cake" min="0" value="0"><br><br>
+
+        <label for="chocolate-cake">Chocolate Cake (₹500):</label>
+        <input type="number" id="chocolate-cake" name="chocolate_cake" min="0" value="0"><br><br>
+
+        <label for="strawberry-cake">Strawberry Cake (₹400):</label>
+        <input type="number" id="strawberry-cake" name="strawberry_cake" min="0" value="0"><br><br>
+
+        <label for="special-cake">TB's Special Cake (₹600):</label>
+        <input type="number" id="special-cake" name="special_cake" min="0" value="0"><br><br>
+
+        <!-- Cookies Section -->
+        <h3>Cookies (per 100g):</h3>
+        <label for="chocolate-chip">Chocolate Chip (₹100):</label>
+        <input type="number" id="chocolate-chip" name="chocolate_chip" min="0" value="0"><br><br>
+
+        <label for="butter-cookies">Butter Cookies (₹100):</label>
+        <input type="number" id="butter-cookies" name="butter_cookies" min="0" value="0"><br><br>
+
+        <label for="almond-cookies">Almond Cookies (₹100):</label>
+        <input type="number" id="almond-cookies" name="almond_cookies" min="0" value="0"><br><br>
+
+        <label for="special-cookies">TB's Special Cookies (₹150):</label>
+        <input type="number" id="special-cookies" name="special_cookies" min="0" value="0"><br><br>
+
+        <!-- Snacks Section -->
+        <h3>Snacks:</h3>
+        <label for="paneer-puff">Paneer Puff (₹20 each):</label>
+        <input type="number" id="paneer-puff" name="paneer_puff" min="0" value="0"><br><br>
+
+        <label for="samosa">Samosa (₹20 each):</label>
+        <input type="number" id="samosa" name="samosa" min="0" value="0"><br><br>
+
+        <label for="congress-bun">Congress Bun (₹20 each):</label>
+        <input type="number" id="congress-bun" name="congress_bun" min="0" value="0"><br><br>
+
+        <label for="special-mixture">TB's Special Mixture (₹200 per kg):</label>
+        <input type="number" id="special-mixture" name="special_mixture" min="0" value="0"><br><br>
+
+        <!-- Add-ons Section -->
+        <h3>Add-ons and Sides:</h3>
+        <label for="extra-frosting">Extra Frosting (₹50):</label>
+        <input type="checkbox" id="extra-frosting" name="add_ons[]" value="extra_frosting"><br>
+
+        <label for="candles">Candles (₹20):</label>
+        <input type="checkbox" id="candles" name="add_ons[]" value="candles"><br>
+
+        <label >Extra Toppings:</label><br>
+        <input type="radio" id="toppings-none" name="extra_toppings" value="none" checked> No Toppings<br>
+        <input type="radio" id="toppings-nuts" name="extra_toppings" value="nuts"> Nuts (₹30)<br>
+        <input type="radio" id="toppings-chocolate" name="extra_toppings" value="chocolate"> Chocolate Shavings (₹30)<br><br>
+
+        <!-- Special Requests -->
+        <label for="special-requests">Special Requests:</label><br>
+        <textarea id="special-requests" name="special_requests" rows="4" cols="50" placeholder="Any special requests?"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit" value="Go To Checkout">Submit</button>
+        <br>
+        <br>
+
+    </form>
+    <footer>
+        Made with Love By: @prajwalkk
+        <br>
+    </footer>
+</section>
+
+
+
+</div>
+</body>
+</html>
